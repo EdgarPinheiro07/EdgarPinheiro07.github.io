@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <form>
+	  
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">	  
+            <input 
+			type="email" 
+			class="form-control" 
+			id="inputEmail3" 
+			required />
+          </div>
+        </div>
+		
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">ID no Jogo</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" required />
+          </div>
+        </div>
+		
+		   <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">IBAN</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" required />
+          </div>
+        </div>
+        
+		<div class="form-group row">
+          <label for="selectPais" class="col-sm-2 col-form-label">Selecione o produto</label>
+          <div class="col-sm-10">
+            <select class="form-control" id="selectPais" required>
+              <option value="" selected="selected" disabled="disabled"
+                >Selecione uma opção</option>
+              <optio>AKR</option>
+              <option>AWM</option>
+              <option>Karambit</option>
+			  <option>Dual Daggers</option>
+			  <option>Stiker "Gold Skull"</option>
+			  <option>Sticker "Metal Rat" </option>
+            </select>
+          </div>
+        </div
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">comprar</button>
+            <button type="reset" class="btn btn-warning">Limpar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
